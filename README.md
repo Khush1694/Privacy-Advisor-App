@@ -9,7 +9,6 @@ IB Privacy Advisor App is an user-centered app that help people and especially c
 
 ## [Download .exe](https://www.dropbox.com/s/cslvals0qt91nq5/ib_setup.exe?dl=0)
 
-
 ## Architecture
 
 ![Architecture](https://user-images.githubusercontent.com/51766689/134905460-8894873f-d156-41ec-992f-46eddbae5796.png)
