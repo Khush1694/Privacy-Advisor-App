@@ -93,4 +93,3 @@ IB Privacy Advisor App is an user-centered app that help people and especially c
 * mysql-connector-java-8.0.18 +
 * jasperreports-fonts-6.14.0
 * iReport-5.6.0-plugin
-
