@@ -792,6 +792,18 @@ public class UserPage extends javax.swing.JFrame {
                     }
 
                 }
+             else{
+                URL = "jdbc:mongo://" + serverIP + ":"
+                + port+ "/" +databaseName;                     
+                Class.forName("mongodb.jdbc.MongoDriver");
+                con=DriverManager.getConnection(URL,mongo1, mongo1);
+      
+                pst=con.prepareStatement("select salary from customers where salary>40000");
+                rs=pst.executeQuery();
+                pst4=con.prepareStatement("select postalCode from customers where username=? ");
+                pst4.setString(1, Username);
+                rs4=pst4.executeQuery();
+              
 
             } catch (ClassNotFoundException ex) {
                 Logger.getLogger(UserPage.class.getName()).log(Level.SEVERE, null, ex);
